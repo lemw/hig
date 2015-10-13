@@ -1,0 +1,27 @@
+package hig.androidkurs.examples.helloandorid;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.util.Log;
+
+public class MainActivity extends Activity {
+	private String myLogTag = "MyTag";
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_main);
+		Log.v(myLogTag, "Now the activity has been created!");
+	}
+	
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		getMenuInflater().inflate(R.layout.activity_main , menu);
+		Log.v(myLogTag, "Now the content menu has been created!")
+		return true;
+	}
+	
+	
+}

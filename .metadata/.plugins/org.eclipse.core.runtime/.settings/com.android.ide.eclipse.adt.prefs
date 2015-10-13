@@ -1,0 +1,7 @@
+com.android.ide.eclipse.adt.fixLegacyEditors=1
+com.android.ide.eclipse.adt.lintSeverities=MissingTranslation\=WARNING
+com.android.ide.eclipse.adt.sdk=/home/lemw/Downloads/apk/android-sdk-linux
+com.android.ide.eclipse.adt.xmlEditor=true
+design.palette.flyout.dockLocation=4
+design.palette.flyout.state=1
+eclipse.preferences.version=1
